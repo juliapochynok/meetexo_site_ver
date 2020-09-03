@@ -14,7 +14,6 @@ export default function getCompositeRect(elementOrVirtualElement, offsetParent, 
 
   var documentElement = getDocumentElement(offsetParent);
   var rect = getBoundingClientRect(elementOrVirtualElement);
-  var isOffsetParentAnElement = isHTMLElement(offsetParent);
   var scroll = {
     scrollLeft: 0,
     scrollTop: 0
@@ -24,7 +23,7 @@ export default function getCompositeRect(elementOrVirtualElement, offsetParent, 
     y: 0
   };
 
-  if (isOffsetParentAnElement || !isOffsetParentAnElement && !isFixed) {
+  if (!isFixed) {
     if (getNodeName(offsetParent) !== 'body' || // https://github.com/popperjs/popper-core/issues/1078
     isScrollParent(documentElement)) {
       scroll = getNodeScroll(offsetParent);
