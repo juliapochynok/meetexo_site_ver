@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/meetexo_site_ver/static/css/main.f5e82be7.chunk.css",
+    "main.js": "/meetexo_site_ver/static/js/main.88cb4fbd.chunk.js",
+    "main.js.map": "/meetexo_site_ver/static/js/main.88cb4fbd.chunk.js.map",
+    "runtime-main.js": "/meetexo_site_ver/static/js/runtime-main.bf282f5e.js",
+    "runtime-main.js.map": "/meetexo_site_ver/static/js/runtime-main.bf282f5e.js.map",
+    "static/css/2.5b44f0a0.chunk.css": "/meetexo_site_ver/static/css/2.5b44f0a0.chunk.css",
+    "static/js/2.2d8ce110.chunk.js": "/meetexo_site_ver/static/js/2.2d8ce110.chunk.js",
+    "static/js/2.2d8ce110.chunk.js.map": "/meetexo_site_ver/static/js/2.2d8ce110.chunk.js.map",
+    "index.html": "/meetexo_site_ver/index.html",
+    "precache-manifest.d1708ce954a9028178473ddfd0996f52.js": "/meetexo_site_ver/precache-manifest.d1708ce954a9028178473ddfd0996f52.js",
+    "service-worker.js": "/meetexo_site_ver/service-worker.js",
+    "static/css/2.5b44f0a0.chunk.css.map": "/meetexo_site_ver/static/css/2.5b44f0a0.chunk.css.map",
+    "static/css/main.f5e82be7.chunk.css.map": "/meetexo_site_ver/static/css/main.f5e82be7.chunk.css.map",
+    "static/js/2.2d8ce110.chunk.js.LICENSE.txt": "/meetexo_site_ver/static/js/2.2d8ce110.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/meetexo_site_ver/static/media/logo.76784481.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf282f5e.js",
+    "static/css/2.5b44f0a0.chunk.css",
+    "static/js/2.2d8ce110.chunk.js",
+    "static/css/main.f5e82be7.chunk.css",
+    "static/js/main.88cb4fbd.chunk.js"
+  ]
+}
