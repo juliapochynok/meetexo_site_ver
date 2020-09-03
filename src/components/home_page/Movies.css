@@ -1,0 +1,31 @@
+
+
+.MoviesMain {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.CaptionMovies {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    white-space: pre;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+    font-size: 400%;
+    letter-spacing: 0.2em;
+    margin-bottom: 15%;
+    margin-left: 120%;
+    margin-right: 90%;
+  }
+
+
+.Carousel2 {
+    width: 34vw;
+    height: 38vh;
+}
+
+.ItemCar2 {
+    width: 34vw;
+    height: 38vh;
+}

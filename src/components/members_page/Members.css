@@ -1,0 +1,66 @@
+
+.MemMain  {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* text-align: center; */
+}
+
+.MInfo {
+    color: rgb(255, 255, 255);
+    font-family: 'Wire One', sans-serif;
+    font-size: 200%;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.MemName {
+    font-weight:bold; 
+    color: rgb(255, 255, 255);
+    /* text-shadow: 1px 1px 4px rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247); */
+    opacity: 1;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+    font-size: 350%;
+    letter-spacing: 0.2em;
+    margin-bottom: 5%;
+    margin-top: 7%;
+  }
+
+.MemPhoto  {
+    width:90% !important;
+    min-width:10 !important;
+    height: 56%;
+    -webkit-box-shadow: 0px -1px 30px -10px rgb(177, 175, 179);
+    -moz-box-shadow: 0px -1px 30px -10px rgb(177, 175, 179);
+     box-shadow: 0px -1px 30px -10px rgb(177, 175, 179);
+}
+
+.MemPhoto1  {
+    width:90% !important;
+    min-width:10 !important;
+    height: 56%;
+}
+
+.SNSPic1 {
+    width:10%;
+  
+  }
+  
+.SNS1 { 
+    margin-left: 2%;
+    margin-right: 2%;
+    align-self: left;
+  }
+  
+.person {
+    margin-bottom: 7vh !important;
+  }
+
+.memRow {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+  

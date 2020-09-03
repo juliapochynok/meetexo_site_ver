@@ -1,0 +1,103 @@
+
+@import URL(https://fonts.googleapis.com/css2?family=Wire+One&display=swap);
+
+
+.MainTestHeader {
+  font-family: 'Wire One', sans-serif;
+  align-items: center;
+  font-size: 4vw;
+  margin-bottom: 3vh;
+  letter-spacing: 0.1em;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px  rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+}
+
+
+.Q {
+    height: 30vh;
+    color: white;
+    margin-left: 22vw;
+    margin-right: 22vw;
+    width: 55vw;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    padding: 4vh;
+    box-shadow: 0 0 40px 30px rgb(0, 0, 0) inset;
+    background-image: url('/assets/logo_gif.webp');
+    -webkit-box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+    -moz-box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+     box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+  }
+
+
+.AnswersAll {
+    margin-left: 16vw;
+    /* margin-right: 12vw; */
+    margin-top: 5vh;
+  }
+
+
+.T {
+  font-family: 'Wire One', sans-serif;
+  font-weight: bold;
+  font-size: 3vh;
+
+}
+  
+  .answ {
+    align-content: center;
+    border:none;
+    background-color: transparent;
+    /* box-shadow: 0 0 1px 1px rgb(104, 77, 94) inset; */
+    /* background: linear-gradient(rgba(255, 255, 255, 0.726), rgba(255, 255, 255, 0.685)), transparent; */
+    color: rgb(255, 255, 255);
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 4vw;
+    height: 7vh;
+    font-family: 'Wire One', sans-serif;
+    font-weight: bold;
+    font-size: 1vh;
+    border-radius: 50%;
+    animation: shadow 1s infinite;
+    float: left;
+  }
+
+  .answ_right {
+    align-content: center;
+    border:none;
+    background-color: white;
+    -webkit-box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+    -moz-box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+    box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+    color: rgb(0, 0, 0);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 5vw;
+    height: 8vh;
+    font-family: 'Wire One', sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    border-radius: 50%;
+    float: left;
+  }
+
+  @keyframes shadow {
+    0% {
+      box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.774);
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.856);
+    }
+}
+
+  
+  .answ:hover {
+    border:none;
+    outline: none;
+    background-color:transparent;
+    color: white;
+    font-size: 2vh; 
+  }

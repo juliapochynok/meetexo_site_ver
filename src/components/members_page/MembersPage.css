@@ -1,0 +1,17 @@
+.MembersPage {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-image: url('/assets/body-logo.png');
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100vw;
+    transition: 0.4s;
+  }
+  
+.ContentMem {
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+    

@@ -1,0 +1,167 @@
+.header1 {
+    align-items: center;
+    font-size: 4vw;
+    /* margin-bottom: 3vh; */
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px  rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+    opacity: 1;
+    white-space: pre;
+    font: oblique;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+}
+
+.header2 {
+    align-items: center;
+    font-size: 3vw;
+    margin-bottom: 3vh;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px  rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+    opacity: 1;
+    white-space: pre;
+    font: oblique;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+}
+
+.description {
+    align-items: center;
+    font-size: 1vw;
+    margin-bottom: 3vh;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+    opacity: 1;
+    white-space: pre;
+    font: oblique;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+
+}
+
+.form-full {
+    margin-left: 28%;
+    margin-right: 30%;
+    margin-top: 1vh;
+}
+
+.form-and-desc {
+    align-items: center;
+    position: relative;
+    z-index:1;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: linear-gradient(transparent, rgba(236, 236, 236, 0.377),  transparent), transparent;
+    /* background: transparent; */
+}
+
+
+.text {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 110%;
+  height: 4vh;
+  border: 1px solid rgba(236, 236, 236, 0.815);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, .2);
+  color: white;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Wire One', sans-serif;
+    color: rgb(230, 222, 222);
+  }
+  
+:-ms-input-placeholder { 
+    font-family: 'Wire One', sans-serif;
+    color: rgb(230, 222, 222);
+  }
+
+::placeholder {
+    font-family: 'Wire One', sans-serif;
+    color: rgb(230, 222, 222);
+}
+
+
+.Submit {
+    margin-top: 10%;
+    border: none;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    width: 25.6em;
+    height: 6.3em;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: left;
+    text-decoration: none;
+    line-height: 3em;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+  }
+.Submit svg {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.Submit svg g line,
+.Submit svg g polyline,
+.Submit svg g circle {
+    fill: none;
+    stroke: #fff;
+  }
+.Submit svg g line,
+.Submit svg g polyline {
+    stroke-miterlimit: 10;
+  }
+.Submit svg g circle {
+    display: block;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.066em;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 0;
+    -webkit-transition: stroke-dashoffset ease-out 0.5s;
+    transition: stroke-dashoffset ease-out 0.5s;
+  }
+.Submit font {
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+  }
+.Submit:hover {
+    border: none;
+    background: transparent;
+    -webkit-transform: translateZ(0) translateX(0.5em);
+            transform: translateZ(0) translateX(0.5em);
+  }
+.Submit:hover svg g circle {
+    stroke-dashoffset: 200;
+  }
+  
+.but-text {
+    font-size: 300%; 
+    font-family: 'Wire One', sans-serif;
+}
+
+
+
+

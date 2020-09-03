@@ -1,0 +1,71 @@
+.InfoPage {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    /* background-image: url('/assets/body-logo.png'); */
+    background-repeat: repeat;
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100vw;
+    transition: 0.4s;
+    position: absolute; /* or absolute or fixed */
+  }
+  
+/* .video1 {
+    top: 50%;
+    width: 99vw;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+    background: linear-gradient(rgb(4, 8, 6, 0.9), rgb(4, 8, 6, 0.9)), rgb(4, 8, 6, 0.9);
+    left: 50%;
+    z-index: 0;
+    position: fixed;
+  } */
+
+  .video1 {
+    position: fixed;
+    left: 50%; /* % of surrounding element */
+    top: 50%;
+    transform: translate(-50%, -50%); /* % of current element */
+    opacity: 0.5;
+  }
+  
+.HiMem  {
+    width:60% !important;
+    min-width:10 !important;
+    height: 30%;
+    -webkit-box-shadow: 0px -1px 30px -10px rgb(177, 175, 179);
+    -moz-box-shadow: 0px -1px 30px -10px rgb(177, 175, 179);
+     box-shadow: 0px -1px 30px -10px rgb(177, 175, 179);
+}
+
+.WHO {
+    font-weight:bold; 
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+    /* font-size: 4vw; */
+    font-size: 800%;
+    letter-spacing: 0.1em;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    overflow: visible;
+  }
+
+.introEXO {
+    font-weight:bold; 
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+    /* font-size: 2vw; */
+    font-size: 390%;
+    letter-spacing: 0.1em;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }

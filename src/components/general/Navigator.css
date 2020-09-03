@@ -1,0 +1,65 @@
+
+@import URL(https://fonts.googleapis.com/css2?family=Wire+One&display=swap);
+
+.Header {
+    position: relative;
+    top: 5;
+    bottom: 5;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+    background-color: transparent;
+    transition: 0.3s;
+  
+  }
+
+.MainTitle {
+    opacity: 1;
+    white-space: pre;
+    display: inline;
+    font: oblique;
+    font-family: 'Wire One', sans-serif;
+    font-size: 400%;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+.Logo1 {
+    opacity: 1;
+    width: 4%;
+  }
+
+.MainTitle:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+  
+.MainContainerA{
+    font-family: 'Wire One', sans-serif;
+    font-size: 300%;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2% 2%;
+    display: inline-block;
+}
+  
+.MainContainerA:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.MainContainerA.selected {
+  text-shadow: 2px 2px 1px rgb(255, 255, 255), 0 0 0.1em rgb(250, 250, 250), 0 0 0.1em rgb(255, 255, 255);
+  text-decoration: none;
+  color: white;
+}
+/* 
+.MainTitle.selected {
+  text-shadow: 2px 2px 10px rgb(226, 211, 247), 0 0 3em rgb(226, 211, 247), 0 0 3em rgb(226, 211, 247);
+  text-decoration: none;
+  color: white;
+} */

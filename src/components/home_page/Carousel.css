@@ -1,0 +1,88 @@
+
+.Carousel1 {
+    width: 65vw;
+    height: 60vh;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    margin-bottom: 9vh;
+ -webkit-box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+  -moz-box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+   box-shadow: 0px -1px 30px -10px rgba(255,255,255,1);
+
+}
+
+.ItemCar {
+    width: 65vw;
+    height: 60vh;
+}
+
+.d-block {
+    width:100%;
+    min-width:100 ;
+    height: auto;
+}
+
+.d-block1 {
+    width:100% ;
+    min-width:100;
+    height: auto;
+}
+
+@media (max-width: 1600px) {
+    .d-block1 {
+        width:100% ;
+        height: 100%;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .d-block {
+        width:100%;
+        height: 100%;
+    }
+  }
+
+
+.SlideTitle {
+    opacity: 1;
+    white-space: pre;
+    font: oblique;
+    font-family: 'Wire One', sans-serif;
+    text-decoration: none;
+}
+
+.Slide2 {
+    align-items: center;
+    font-size: 4vw;
+    margin-bottom: 35vh;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px  rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+}
+
+.Slide1 {
+    align-items: center;
+    font-size: 4vw;
+    margin-bottom: 40vh;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px  rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+}
+
+.Slide3 {
+    align-items: center;
+    font-size: 4vw;
+    margin-bottom: 30vh;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px  rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+}
+
+.Slide4 {
+    align-items: center;
+    font-size: 4vw;
+    margin-bottom: 30vh;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px  rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247), 0 0 0.1em rgb(226, 211, 247);
+}
